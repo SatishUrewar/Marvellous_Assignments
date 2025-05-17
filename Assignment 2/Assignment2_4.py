@@ -1,3 +1,4 @@
+#Write a program whch accept one number from user and return addition of its factors.
 
 def main():
     sum=0
