@@ -4,6 +4,7 @@
 #  1    2    3
 #  1    2    3    4
 #  1    2    3    4    5
+
 def main():
     a=int(input("enter number : "))
        
