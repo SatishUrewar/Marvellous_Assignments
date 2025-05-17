@@ -1,3 +1,5 @@
+#Write a program which accept N numbers from user and store it into List. Return Minimum number from that List.
+
 def sort(n,li):
     for i in range(n):
         for j in range(n-i-1):
