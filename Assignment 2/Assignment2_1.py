@@ -1,3 +1,4 @@
+#Create a module named as Arithmetic which contains 4 functions as Add() for addition, Sub() for substraction, Mult() for multiplication and Div() for division. All functions accepts two parameters as Number and perform the operation. write on python program which call all the functions from Arithmetic module by accepting the parameters from user.
 from Arithmetic import Add,Sub,Mult,Div
 def main():
 
