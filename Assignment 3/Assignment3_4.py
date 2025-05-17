@@ -1,3 +1,5 @@
+#Write a program which accept N numbers from user and store it into List. Accept one another number from user and return frequency of that number from List.
+
 def freq(n,li,f):
     cnt=0
     for i in range(n):
