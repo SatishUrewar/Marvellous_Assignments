@@ -1,3 +1,10 @@
+#Write a program which accept one number and display below pattern.
+#  1    2    3    4    5
+#  1    2    3    4    5
+#  1    2    3    4    5
+#  1    2    3    4    5
+#  1    2    3    4    5
+
 def main():
     a=int(input("enter number : "))
     
