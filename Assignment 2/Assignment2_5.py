@@ -1,4 +1,4 @@
-#Write a program whch accept one number from user and return addition of its factors.
+#Write a program whch accept one number from user and check whether number is prime or not.
 
 def prime(v1):
     if v1 < 2:
