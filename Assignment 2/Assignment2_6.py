@@ -1,3 +1,9 @@
+#Write a program which accept one number and display below pattern.
+# *    *    *    *    *
+# *    *    *    *
+# *    *    *
+# *    *
+# * 
 def main():
     a=int(input("enter number : "))
     for i in range(a,0,-1):
