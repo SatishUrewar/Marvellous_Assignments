@@ -1,3 +1,4 @@
+#Write a program whch accept one number from user and return its factorial.
 
 def main():
     sum=1
