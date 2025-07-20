@@ -8,9 +8,7 @@ def main():
         'English': [75, 85, 82]
     }
       df=pd.DataFrame(data)
-      print("Shape :",df.shape)
-      print("columns of data :",df.columns)
-      print("Data types of data :",df.dtypes)
-
+      print("Descriptive statistic of data  :",df.describe())
+      
 if __name__=="__main__":
     main()

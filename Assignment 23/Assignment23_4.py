@@ -8,9 +8,9 @@ def main():
         'English': [75, 85, 82]
     }
       df=pd.DataFrame(data)
-      print("Shape :",df.shape)
-      print("columns of data :",df.columns)
-      print("Data types of data :",df.dtypes)
+      highmark= df[df['Science']>85]
+      print("Student who scored more than 85 is :",highmark)
 
+      
 if __name__=="__main__":
     main()

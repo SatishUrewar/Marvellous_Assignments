@@ -8,9 +8,13 @@ def main():
         'English': [75, 85, 82]
     }
       df=pd.DataFrame(data)
-      print("Shape :",df.shape)
-      print("columns of data :",df.columns)
-      print("Data types of data :",df.dtypes)
 
+      df['Total']=df['Math']+df['Science']+df['English']
+      print("Total marks is :",df)
+      
+      df.sort_values(by='Total', ascending=False,inplace=True)
+      print(df)
+
+      
 if __name__=="__main__":
     main()
